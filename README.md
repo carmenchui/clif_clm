@@ -12,40 +12,41 @@ switch language modes between CLIF, HTML and JavaScript.
 Installation Instructions
 -------------------------
 
-#. Clone the GitHub repository `BBEdit_CLIF_CLM
+1. Clone the GitHub repository `BBEdit_CLIF_CLM
    <https://github.com/carmenchui/BBEdit_CLIF_CLM>`_ or download the
    ``.zip`` file
-#. Backup and remove all other LDML Language Modules from
+2. Backup and remove all other LDML Language Modules from
    ``~/Library/Application Support/BBEdit/Language Modules``. This avoids
    possible conflicts.
-#. Move the file ``BBEditLDML/Language Modules/LassoScript.plist`` to
+3. Move the file ``BBEditLDML/Language Modules/LassoScript.plist`` to
    ``~/Library/Application Support/BBEdit/Language Modules``.
-#. Move the folder ``BBEditLDML/Scripts/06)Set Language to/`` and its contents
+4. Move the folder ``BBEditLDML/Scripts/06)Set Language to/`` and its contents
    to ``~/Library/Application Support/BBEdit/Scripts/``.
-#. Restart BBEdit. This will load the new ``.plist`` and AppleScripts.  Next
+5. Restart BBEdit. This will load the new ``.plist`` and AppleScripts.  Next
    you configure BBEdit to use these items.
-#. In BBEdit, select `BBEdit > Preferences > Languages > Lasso Script >
+6. In BBEdit, select `BBEdit > Preferences > Languages > Lasso Script >
    Options... > General`.
-   #. For adding multiline comments, enter ``/*`` and ``*/`` for `Comment start`
+   
+   a. For adding multiline comments, enter ``/*`` and ``*/`` for `Comment start`
       and `Comment end`, respectively.
-   #. For looking up selections in the local reference, for `Reference URL
+   b. For looking up selections in the local reference, for `Reference URL
       template` enter ``http://localhost/Reference.LassoApp?__SYMBOLNAME__``.
       Ctrl-click on a selection, and select Find in Reference. The local copy
       of your language reference should appear in a web browser and search for
       the selected text.
-#. In BBEdit, select `BBEdit > Preferences > Languages > Suffix Mappings`. Map
+7. In BBEdit, select `BBEdit > Preferences > Languages > Suffix Mappings`. Map
    the file suffixes that you want to have lasso syntax highlighting to the
    appropriate language module.  You might need to `Add...` or `Change...`
    file suffixes. I recommend mapping ``.clif``. For
    each suffix, set the name of the suffix, set the language to `Lasso
    Script`, and select the radio button for `Source File`.
-#. Under the `Scripts` menu (the funny scroll icon shaped like an ``S``),
+8. Under the `Scripts` menu (the funny scroll icon shaped like an ``S``),
    select `Set Language to > CLIF`.
-#. You can set keyboard shortcuts for these scripts to easily switch language
+9. You can set keyboard shortcuts for these scripts to easily switch language
    modes.  Select `Window > Palettes > Scripts`. Expand `Set Language to`.
    Select `HTML`. Click `Set Key...`. I use ``^H`` (CTRL-H) for HTML, and
-   ``^L`` for LDML.
-#. Create a new file, name it ``test.clif``, set the language to `CLIF`, and
+   ``^C`` for CLIF.
+10. Create a new file, name it ``test.clif``, set the language to `CLIF`, and
    syntax coloring should work.
 
 Use at your own risk!
