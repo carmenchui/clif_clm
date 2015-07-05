@@ -18,32 +18,24 @@ Installation Instructions
    to ``~/Library/Application Support/BBEdit/Scripts/``.
 5. Restart BBEdit. This will load the new ``.plist`` and AppleScripts.  Next
    you configure BBEdit to use these items.
-6. In BBEdit, select `BBEdit > Preferences > Languages > Lasso Script >
-   Options... > General`.
-   
-   a. For adding multiline comments, enter ``/*`` and ``*/`` for `Comment start`
-      and `Comment end`, respectively.
-   b. For looking up selections in the local reference, for `Reference URL
-      template` enter ``http://localhost/Reference.LassoApp?__SYMBOLNAME__``.
-      Ctrl-click on a selection, and select Find in Reference. The local copy
-      of your language reference should appear in a web browser and search for
-      the selected text.
-7. In BBEdit, select `BBEdit > Preferences > Languages > Suffix Mappings`. Map
-   the file suffixes that you want to have lasso syntax highlighting to the
-   appropriate language module.  You might need to `Add...` or `Change...`
-   file suffixes. I recommend mapping ``.clif``. For
-   each suffix, set the name of the suffix, set the language to `Lasso
-   Script`, and select the radio button for `Source File`.
+6. In BBEdit, select `BBEdit > Preferences > Languages > Suffix Mappings`. Map the file suffixes that you want to have CLIF syntax highlighting to the appropriate language module.  You might need to `Add...` or `Change...` file suffixes. I recommend mapping ``.clif``. For each suffix, set the name of the suffix, set the language to `CLIF`, and select the radio button for `Source File`.
 8. Under the `Scripts` menu (the funny scroll icon shaped like an ``S``),
    select `Set Language to > CLIF`.
 9. You can set keyboard shortcuts for these scripts to easily switch language
    modes.  Select `Window > Palettes > Scripts`. Expand `Set Language to`.
    Select `HTML`. Click `Set Key...`. I use ``^H`` (CTRL-H) for HTML, and
    ``^C`` for CLIF.
-10. Create a new file, name it ``test.clif``, set the language to `CLIF`, and
-   syntax coloring should work.
+10. Create a new file, name it ``test.clif``, set the language to `CLIF`, and syntax coloring should work.
 
-Use at your own risk!
+# Download
+
+[You can download the tool here.](https://github.com/carmenchui/BBEdit_CLIF_CLM/releases/)
+
+# Screenshots
+![test](https://github.com/carmenchui/BBEdit_CLIF_CLM/raw/master/clif_example1.jpg)
+
+![test](https://github.com/carmenchui/BBEdit_CLIF_CLM/raw/master/clif_example2.jpg)
+
 
 # License
 Copyright (c) 2015 Carmen Chui, University of Toronto
