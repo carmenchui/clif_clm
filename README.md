@@ -29,7 +29,7 @@ Installation Instructions
 
 # Download
 
-[You can download the tool here.](https://github.com/carmenchui/BBEdit_CLIF_CLM/releases/)
+[You can download the plist file here.](https://github.com/carmenchui/BBEdit_CLIF_CLM/releases/)
 
 # Screenshots
 ![test](https://github.com/carmenchui/BBEdit_CLIF_CLM/raw/master/clif_example1.jpg)
