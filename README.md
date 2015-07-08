@@ -3,8 +3,8 @@
 This repository contains instructions on how to enable CLIF syntax
 coloring in BBEdit, TextWrangler and Notepad++.
 
-Installation Instructions
-=========================
+Installation Instructions (BBEdit, TextWrangler)
+================================================
 
 1. Clone the GitHub repository `CLIF_CLM
    <https://github.com/carmenchui/clif_clm>`_ or download the
@@ -26,6 +26,11 @@ Installation Instructions
    Select `HTML`. Click `Set Key...`. I use ``^H`` (CTRL-H) for HTML, and
    ``^C`` for CLIF.
 10. Create a new file, name it ``test.clif``, set the language to `CLIF`, and syntax coloring should work.
+
+Installation Instructions (Notepad++)
+================================================
+
+TBA.
 
 # Download
 
