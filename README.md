@@ -1,20 +1,20 @@
-# BBEdit Common Logic Interchange Format Codeless Language Module
+# Common Logic Interchange Format Codeless Language Module
 
 This repository contains instructions on how to enable CLIF syntax
-coloring in BBEdit 8.5.5, TextWrangler 4.5.12 and later with standard and your custom tags and types. It can also be used to include and Lasso how to use AppleScript to switch language modes between CLIF, HTML and JavaScript.
+coloring in BBEdit, TextWrangler and Notepad++.
 
 Installation Instructions
 =========================
 
-1. Clone the GitHub repository `BBEdit_CLIF_CLM
-   <https://github.com/carmenchui/BBEdit_CLIF_CLM>`_ or download the
+1. Clone the GitHub repository `CLIF_CLM
+   <https://github.com/carmenchui/clif_clm>`_ or download the
    ``.zip`` file
 2. Backup and remove all other LDML Language Modules from
    ``~/Library/Application Support/BBEdit/Language Modules``. This avoids
    possible conflicts.
-3. Move the file ``BBEditLDML/Language Modules/LassoScript.plist`` to
+3. Move the file ``clif_clm/Language Modules/LassoScript.plist`` to
    ``~/Library/Application Support/BBEdit/Language Modules``.
-4. Move the folder ``BBEditLDML/Scripts/06)Set Language to/`` and its contents
+4. Move the folder ``clif_clm/Scripts/06)Set Language to/`` and its contents
    to ``~/Library/Application Support/BBEdit/Scripts/``.
 5. Restart BBEdit. This will load the new ``.plist`` and AppleScripts.  Next
    you configure BBEdit to use these items.
