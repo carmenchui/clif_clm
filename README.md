@@ -34,16 +34,16 @@ TBA.
 
 # Download
 
-[You can download the plist file here.](https://github.com/carmenchui/BBEdit_CLIF_CLM/releases/)
+[You can download the plist file here.](https://github.com/carmenchui/clif_clm/releases/)
 
 # Screenshots
-![test](https://github.com/carmenchui/BBEdit_CLIF_CLM/raw/master/clif_example1.jpg)
+![test](https://github.com/carmenchui/clif_clm/raw/master/clif_example1.jpg)
 
-![test](https://github.com/carmenchui/BBEdit_CLIF_CLM/raw/master/clif_example2.jpg)
+![test](https://github.com/carmenchui/clif_clm/raw/master/clif_example2.jpg)
 
 
 # License
-Copyright (c) 2015 Carmen Chui, University of Toronto
+Copyright (c) 2015-2016 Carmen Chui, University of Toronto
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
