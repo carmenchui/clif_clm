@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BBEditDocumentType</key>
+	<string>CodelessLanguageModule</string>
+	<key>BBLMLanguageDisplayName</key>
+	<string>in</string>
+	<key>BBLMLanguageCode</key>
+	<string>in</string>
+	<key>BBLMPreferredFilenameExtension</key>
+	<string>in</string>
+	<key>BBLMCanSpellCheckCodeRuns</key>
+	<false/>
+	<key>BBLMIsCaseSensitive</key>
+	<false/>
+	<key>BBLMColorsSyntax</key>
+	<true/>
+	<key>BBLMSuffixMap</key>
+	<array>
+		<dict>
+			<key>BBLMLanguageSuffix</key>
+			<string>.in</string>
+		</dict>
+	</array>
+	<key>BBLMSupportsTextCompletion</key>
+	<true/>
+	<key>BBLMCommentLineDefault</key>
+	<string>&amp;percnt;&amp;nbsp;</string>
+	<key>BBLMCommentPrefixDefault</key>
+	<string>% =============================</string>
+	<key>BBLMCommentSuffixDefault</key>
+	<string>% =============================</string>
+	<key>BBLMScansFunctions</key>
+	<true/>
+	<key>BBLMKeywordList</key>
+	<array>
+		<string>all</string>
+		<string>exists</string>
+		<string>&lt;-&gt;</string>
+		<string>-&gt;</string>
+		<string>&amp;</string>
+		<string>|</string>
+		<string>!=</string>
+		<string>=</string>
+		<string>-</string>
+		<string>if(Prover9).</string>
+		<string>if(Mace4).</string>
+		<string>formulas(assumptions).</string>
+		<string>end_of_list.</string>
+		<string>formulas(goals).</string>
+		<string>set(ignore_option_dependencies).</string>
+		<string>end_if.</string>
+		<string>%</string>
+		<string>% =============================</string>
+	</array>
+	<key>Language Features</key>
+	<dict>
+		<key>Identifier and Keyword Character Class</key>
+		<string>!$%&amp;*+-./:&lt;=&gt;?@^~0-9A-Z_a-z</string>
+		<key>Open Line Comments</key>
+		<string>&amp;percnt;&amp;nbsp;</string>
+		<key>Open Strings 1</key>
+		<string>&apos;</string>
+		<key>Open Strings 2</key>
+		<string>&quot;</string>
+		<key>Close Strings 1</key>
+		<string>&apos;</string>
+		<key>Close Strings 2</key>
+		<string>&quot;</string>
+		<key>End-of-line Ends Strings 1</key>
+		<false/>
+		<key>End-of-line Ends Strings 2</key>
+		<false/>
+		<key>String Pattern</key>
+		<string>(?x:
+		(?&gt; &quot; (
+		[^&quot;\r\\] (?# match anything potential ending quote, new line, or start of escape sequence)
+		| \\. (?# match any escape sequence pair)
+		)*?
+		&quot;
+		)
+		)</string>
+	</dict>
+</dict>
+</plist>
